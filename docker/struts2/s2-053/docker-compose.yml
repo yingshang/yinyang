@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  app:
+    image: securitytrain/s2-053:struts2
+    ports:
+      - "8080"

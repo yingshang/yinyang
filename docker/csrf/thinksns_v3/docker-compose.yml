@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  app:
+    image: securitytrain/thinksns_v3:csrf
+    ports:
+      - "80"

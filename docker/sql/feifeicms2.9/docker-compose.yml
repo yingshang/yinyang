@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  app:
+    image: securitytrain/feifeicms2.9:sql
+    ports:
+      - "80"

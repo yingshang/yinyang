@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  app:
+    image: securitytrain/php168_v6.0:getshell
+    ports:
+      - "80"

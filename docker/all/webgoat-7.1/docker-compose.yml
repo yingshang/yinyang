@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  app:
+    image: securitytrain/webgoat-7.1:all
+    ports:
+      - "8080"

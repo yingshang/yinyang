@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  app:
+    image: securitytrain/cmseasy_v5.5:sql
+    ports:
+      - "80"

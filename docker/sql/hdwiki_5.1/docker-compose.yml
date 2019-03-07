@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  app:
+    image: securitytrain/hdwiki_5.1:sql
+    ports:
+      - "80"

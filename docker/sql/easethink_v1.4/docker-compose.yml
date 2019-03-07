@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  app:
+    image: securitytrain/easethink_v1.4:sql
+    ports:
+      - "80"
